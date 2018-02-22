@@ -22,5 +22,5 @@ using namespace std;
     courseList.push_front(courseObj);
   }
   void Student::deleteCourse(){
-    cout << "Ill get to this later" << endl;
+    cout << "Ill get to this latermuch later maybe" << endl;
   }
