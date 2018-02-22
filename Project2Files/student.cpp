@@ -6,7 +6,7 @@ using namespace std;
 
   }
 
-  Student::Student(int initStudent_Num):Person(string initName, int initAge){
+  Student::Student(int initStudent_Num):Person(string initName, int initAge), student_num(int initStudent_Num){
   }
 
   void Student::getStudentNum(){

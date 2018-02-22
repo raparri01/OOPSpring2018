@@ -1,7 +1,7 @@
 Undefined symbols for architecture x86_64:
   "Course::~Course()", referenced from:
-      std::__1::__list_imp<Course, std::__1::allocator<Course> >::clear() in test-56cb3b.o
+      std::__1::__list_imp<Course, std::__1::allocator<Course> >::clear() in test-0e8150.o
   "Student::Student(int)", referenced from:
-      _main in test-56cb3b.o
+      _main in test-0e8150.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
