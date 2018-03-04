@@ -3,7 +3,6 @@
 #include "person.h"
 #include "course.h"
 #include <list>
-#include <string>
 
 using namespace std;
 class Student: public Person{
@@ -13,7 +12,8 @@ class Student: public Person{
 
   public:
     Student();
-    Student(int initStudent_Num);
+    Student(const Student &studentObj);
+    Student(string initName, int initAge, int initStudent_Num);
     void getStudentNum();
     void printCourses();
     void addCourse(Course courseObj);

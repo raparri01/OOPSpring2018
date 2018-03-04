@@ -1,7 +1,8 @@
 #include "person.h"
 
-using namespace std;
-Person::Person():name("No Name"),age(0){
+Person::Person(){
+  name = "";
+  age = 0;
 }
 Person::Person(string initName, int initAge){
   name = initName;
@@ -13,5 +14,5 @@ void Person::printName(){
 }
 
 void Person::printAge(){
-  coutt << age << endl;
+  cout << age << endl;
 }

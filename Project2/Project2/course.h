@@ -14,7 +14,6 @@ class Course{
     Course();
     Course(string initCourse_name, int initCourse_num, string initCourse_desc);
     ~Course();
-
     void getCourseName();
     void getCourseNum();
     void getCourseDesc();
