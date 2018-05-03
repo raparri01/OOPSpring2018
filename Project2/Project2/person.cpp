@@ -12,6 +12,9 @@ Person::Person(string initName, int initAge){
 void Person::printName(){
   cout << "This is " << name << endl;
 }
+string Person::getName(){
+    return (name);
+}
 
 void Person::printAge(){
   cout << age << endl;

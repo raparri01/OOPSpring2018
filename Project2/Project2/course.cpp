@@ -14,8 +14,8 @@ Course::Course(string initCourse_name, int initCourse_num, string initCourse_des
 Course::~Course(){
 }
 
-void Course::getCourseName(){
-  cout << course_name << endl;
+string Course::getCourseName(){
+    return(course_name);
 }
 void Course::getCourseNum(){
   cout << course_num << endl;

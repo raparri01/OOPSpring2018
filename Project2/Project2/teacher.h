@@ -15,6 +15,7 @@ class Teacher: public Person {
     Teacher(int initSalary, string init_tName, int init_tAge);
     Teacher(const Teacher &teacherObj);
     void getSalary();
+    void printName();
     void printCourses();
     void addCourse(Course courseObj);
 };

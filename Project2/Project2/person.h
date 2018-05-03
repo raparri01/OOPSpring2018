@@ -12,8 +12,8 @@ class Person {
   public:
     Person();
     Person(string initName, int initAge);
-
-    void printName();
+    virtual void printName();
+    string getName();
     void printAge();
 };
 #endif

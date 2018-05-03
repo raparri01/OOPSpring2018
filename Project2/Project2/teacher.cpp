@@ -12,3 +12,7 @@ Teacher::Teacher(const Teacher &teacherObj): Person(teacherObj){
 void Teacher::getSalary(){
     cout << salary << endl;
 }
+
+void Teacher::printName(){
+    cout << "This is teacher " << getName();
+}
